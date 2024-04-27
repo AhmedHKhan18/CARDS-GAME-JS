@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+    border-radius: 10px;
+    height: 70vh;
+    margin: 5% auto;
+}
+.cards:hover{
+    transform: rotateY(180deg) scale(1.2);
+    transition-duration: 1s;
+}
